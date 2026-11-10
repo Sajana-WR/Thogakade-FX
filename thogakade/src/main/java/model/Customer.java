@@ -1,0 +1,24 @@
+package model;
+
+import lombok.*;
+
+import java.time.LocalDate;
+
+@Getter
+@Setter
+@NoArgsConstructor
+@AllArgsConstructor
+@ToString
+
+public class Customer {
+    private String cusId;
+    private String title;
+    private String name;
+    private LocalDate dob;
+    private double salary;
+    private String address;
+    private String city;
+    private String province;
+    private String postalCode;
+
+}
